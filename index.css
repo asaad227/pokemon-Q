@@ -1,27 +1,44 @@
 .header{
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-style: oblique;
     color: bisque;
     padding: 5px;
+    position: absolute;
+    margin-bottom: 250px;
+    
 }
 
 .info{
     display: none;
+    position: relative;
+    margin-top: 15px;
     font-size: 12px;
     font-style: oblique;
     color: bisque;
     padding: 5px;
-    position: static;
+   text-align: justify;
 }
 
 .hideBtn{
     display: none;
+    margin-top: 100px;
+    position: relative;
 }
 
-.start, .gameInfo, .hideBtn{
+.gameInfo, .hideBtn{
+    text-align: initial;
+    width: 80px;
+    height: 25px;
+    border: 2px solid rgba(0, 128, 0, 0.681);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.start{
     margin: 10px;
-    
+    position: fixed;
+    margin-bottom: 100px;
 }
 
 .info:hover, .header:hover{
@@ -76,7 +93,6 @@
     background-attachment: fixed;
     border-radius: 10px;
     margin: 100px;
- 
 }
 
 
@@ -161,7 +177,7 @@
 
 
 
-.start:hover, .reset:hover{
+.start:hover, .reset:hover, .gameInfo:hover, .hideBtn:hover{
     background-color: rgba(255, 0, 0, 0.354);
     transition: 1s;
     color: whitesmoke;

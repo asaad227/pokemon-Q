@@ -1,0 +1,183 @@
+
+#restart{
+    /* display: none;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    height: 380px;
+    border: 2px solid red;
+    background-image: url(./asset/pokemon-wallpaper.jpg));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+    margin: 100px;
+   
+}
+#div1,#div2,#div3{
+    text-align: center;
+    font-style: oblique;
+    color: bisque;  
+}
+
+.resetBtn, .start{
+    border: 1px solid green;
+    font-weight: bold;
+    font-size: 28px;
+    font-style: oblique;
+    border-radius: 5px;
+}
+
+#letsStart{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    height: 380px;
+    border: 2px solid red;
+    background-image: url(./asset/pokemon-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+    margin: 100px;
+ 
+}
+
+
+.flex-box{
+    display: none;
+    justify-content: center;
+    width: 400px;
+    height: 380px;
+    border: 2px solid red;
+    background-image: url(./asset/pokemon-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+    flex-wrap: wrap;
+ margin: 100px;
+ 
+}
+
+
+.image{
+    display: flex;
+    border: 2px solid gold;
+    border-radius: 10px;
+    flex-direction: column-reverse;
+    background-color: azure;
+  }
+
+.sectionBtn{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 7%;
+    
+}
+
+.display{
+    width: 350px;
+    height: 175px;
+    margin-left: 15px;
+}
+
+.btnTotal{
+    display: none;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+   
+    /* margin-right: 50px; */
+}
+.reset{
+    margin-right: 300px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+
+.total{
+  padding-right: inherit;
+  color: bisque;
+  font-weight: 800;
+  font-style: oblique;
+}
+
+.round{
+    padding-right: inherit;
+    color: bisque;
+    font-weight: 800;
+    font-style: oblique;
+  }
+
+
+.btnAnswer1, .btnAnswer2, .btnAnswer3{
+    width: 85px;
+    height: 25px;
+ 
+} 
+.btnAnswer1, .btnAnswer2, .btnAnswer3{
+    border-radius: 5px;
+}
+
+
+
+.start:hover, .reset:hover{
+    background-color: rgba(255, 0, 0, 0.354);
+    transition: 1s;
+    color: whitesmoke;
+}
+
+
+.resetBtn:hover{
+    background-color: rgba(255, 0, 0, 0.354);
+    transition: 1s;
+    color:whitesmoke;
+}
+
+h4{
+    border: 1px solid red;
+    background-color: rgba(0, 0, 255, 0.37);
+    color: bisque;
+}
+
+
+
+@media screen and (max-width: 350px ) {
+    #letsStart{
+        justify-content: center;
+    width: 200px;
+     height: 150px;
+     margin: none;
+    }
+
+    #restart{
+    width: 200px;
+     height: 150px;
+     margin: none;
+    }
+    .flex-box{
+     width: 200px;
+     height: 150px;
+     margin: none;
+     
+    
+    }
+    .display{
+        width: 150px;
+        height: 100px;
+    }
+
+    .sectionBtn{
+        width: 15px;
+        height: 5px;
+     
+    } 
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./api.css" />
+    <title>Document</title>
+  </head>
+  <body>
+      <div id="letsStart">
+           <button class="start" onclick="letsStart()">Start</button>
+      </div>
+    <div id="restart">
+      <h1 id="div1"></h1>
+      <h3 id="div2"></h3>
+      <h3 id="div3"></h3>
+      <button class="resetBtn" onclick="reset()">Restart</button>
+    </div>
+    <div class="flex-box" id="mainDisplay">
+      <div class="score">
+        <h4 class="total"></h4>
+        <h4 class="lost"></h4>
+        <h4 class="round"></h4>
+        
+      </div>
+      <button class="reset" onclick="reset()">reset</button>
+      <div class="image">
+        <img class="display" />
+      </div>
+      <section class="sectionBtn">
+        <div>
+            <h4>What is the name of that Pokemon Character?</h4>
+          <button class="btnAnswer1" onclick="answer()"></button>
+          <button class="btnAnswer2" onclick="answer1()"></button>
+          <button class="btnAnswer3" onclick="answer2()"></button>
+        </div>
+     
+        
+      </section>
+    </div>
+  </body>
+  <script src="api.js"></script>
+</html>

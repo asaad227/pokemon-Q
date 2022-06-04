@@ -27,7 +27,7 @@ function start() {
 
 
 
-console.log("lost count", lost);
+
 function reset() {
   location.reload();
  
@@ -70,7 +70,7 @@ async function getApi() {
   let name1 = data.name;
   let pic = data.sprites.front_default;
 
-  console.log(name1, nums[0], nums[1], nums[2]);
+
 
   response = await fetch(`https://pokeapi.co/api/v2/pokemon/${nums[1]}/`);
   data = await response.json();
@@ -86,7 +86,6 @@ async function getApi() {
     numk.add(Math.floor(Math.random() * 3) + 1);
   }
   numsk.push(...numk);
-  console.log(numsk);
   if (numsk[0] === 1) {
     document.querySelector(".btnAnswer1").innerHTML = name1;
     document.querySelector(".display").src = pic;

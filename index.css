@@ -1,13 +1,36 @@
-.info{
-    font-size: large;
+.header{
+    text-align: center;
+    font-size: 18px;
     font-style: oblique;
     color: bisque;
-    padding: 20px;
+    padding: 5px;
 }
 
-.start{
-   margin-bottom: 100px;
+.info{
+    display: none;
+    font-size: 12px;
+    font-style: oblique;
+    color: bisque;
+    padding: 5px;
+    position: static;
 }
+
+.hideBtn{
+    display: none;
+}
+
+.start, .gameInfo, .hideBtn{
+    margin: 10px;
+    
+}
+
+.info:hover, .header:hover{
+    background-color: black;
+    transition: 2s;
+    color: aqua;
+}
+
+
 #restart{
     /* display: none;
     flex-direction: column;

@@ -10,6 +10,19 @@ function letsStart(){
   start();
 }
 
+function displayInfo(){
+    document.querySelector('.info').style.display = 'flex';
+    document.querySelector('.hideBtn').style.display = 'flex';
+    document.querySelector('.gameInfo').style.display = 'none';
+}
+
+function hideInfo(){
+  document.querySelector('.info').style.display = 'none';
+  document.querySelector('.hideBtn').style.display = 'none';
+  document.querySelector('.gameInfo').style.display = 'flex';
+
+}
+
 function start() {
   if (lost.length !== 3) {
     getApi();

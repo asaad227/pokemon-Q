@@ -1,4 +1,13 @@
+.info{
+    font-size: large;
+    font-style: oblique;
+    color: bisque;
+    padding: 20px;
+}
 
+.start{
+   margin-bottom: 100px;
+}
 #restart{
     /* display: none;
     flex-direction: column;
@@ -10,7 +19,7 @@
     width: 400px;
     height: 380px;
     border: 2px solid red;
-    background-image: url(./asset/pokemon-wallpaper.jpg));
+    background-image: url(./asset/pokemon-wallpaper.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     border-radius: 10px;

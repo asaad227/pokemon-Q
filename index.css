@@ -4,14 +4,11 @@
     font-style: oblique;
     color: bisque;
     padding: 5px;
-    position: absolute;
-    margin-bottom: 250px;
     
 }
 
 .info{
     display: none;
-    position: relative;
     margin-top: 15px;
     font-size: 12px;
     font-style: oblique;
@@ -22,8 +19,6 @@
 
 .hideBtn{
     display: none;
-    margin-top: 100px;
-    position: relative;
 }
 
 .gameInfo, .hideBtn{
@@ -37,8 +32,6 @@
 
 .start{
     margin: 10px;
-    position: fixed;
-    margin-bottom: 100px;
 }
 
 .info:hover, .header:hover{
@@ -61,9 +54,10 @@
     border: 2px solid red;
     background-image: url(./asset/pokemon-wallpaper.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: relative;
     border-radius: 10px;
-    margin: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
    
 }
 #div1,#div2,#div3{
@@ -84,15 +78,16 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     width: 400px;
     height: 380px;
     border: 2px solid red;
     background-image: url(./asset/pokemon-wallpaper.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: relative;
     border-radius: 10px;
-    margin: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
 }
 
 
@@ -104,10 +99,11 @@
     border: 2px solid red;
     background-image: url(./asset/pokemon-wallpaper.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: relative;
     border-radius: 10px;
     flex-wrap: wrap;
- margin: 100px;
+ margin-top: 100px;
+ margin-right: 100px;
  
 }
 
@@ -200,23 +196,23 @@ h4{
 
 @media screen and (max-width: 350px ) {
     #letsStart{
-        justify-content: center;
+    justify-content: center;
     width: 200px;
      height: 150px;
      margin: none;
     }
 
     #restart{
-    width: 200px;
-     height: 150px;
-     margin: none;
+        justify-content: center;
+        width: 200px;
+         height: 150px;
+         margin: none;
     }
     .flex-box{
-     width: 200px;
-     height: 150px;
-     margin: none;
-     
-    
+        justify-content: center;
+        width: 200px;
+         height: 150px;
+         margin: none;
     }
     .display{
         width: 150px;

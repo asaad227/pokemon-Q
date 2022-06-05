@@ -19,9 +19,13 @@
 
 .hideBtn{
     display: none;
+    
 }
 
 .gameInfo, .hideBtn{
+    font-weight: bold;
+    color: brown;
+    font-style: oblique;
     text-align: initial;
     width: 80px;
     height: 25px;
@@ -35,16 +39,13 @@
 }
 
 .info:hover, .header:hover{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.657);
     transition: 2s;
     color: aqua;
 }
 
 
 #restart{
-    /* display: none;
-    flex-direction: column;
-    flex-wrap: wrap; */
     display: none;
     flex-direction: column;
     flex-wrap: wrap;
@@ -74,6 +75,21 @@
     border-radius: 5px;
 }
 
+.start span#a{
+    display: inline;
+}
+
+.start:hover span#a{
+    display: none;
+}
+
+.start span#b{
+    display: none;
+}
+
+.start:hover span#b{
+    display: inline;
+}
 #letsStart{
     display: flex;
     flex-direction: column;
@@ -113,7 +129,7 @@
     border: 2px solid gold;
     border-radius: 10px;
     flex-direction: column-reverse;
-    background-color: azure;
+    background-color: rgba(85, 103, 103, 0.548);
   }
 
 .sectionBtn{
